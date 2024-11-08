@@ -6,7 +6,7 @@ food[7] = 'plov';
 food[3] = 'sandwich';
 let arr = [];
 for (let i = 0; i < food.length; i++) {
-  if (food[i].length > 5) {
+  if (food[i].length > 7) {
     arr.push(food[i]);
   }
 }
@@ -66,7 +66,6 @@ for (let i = 0; i < friends.length; i++) {
 }
 
 //Task 4
-
 let student1 = {
   name: 'Meryem',
   score: 97,
