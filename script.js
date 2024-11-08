@@ -15,7 +15,7 @@ console.log(arr);
 //Task 2
 let dailyTemperatures = [12, 21, 17, 8, 2, 14, 27];
 let average = 0;
-let maxTemp = 0;
+let maxTemp = dailyTemperatures[0];
 let minTemp = dailyTemperatures[0];
 for (let i = 0; i < dailyTemperatures.length; i++) {
   average += dailyTemperatures[i] / dailyTemperatures.length;
